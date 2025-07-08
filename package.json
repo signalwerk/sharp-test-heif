@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "test-heic": "node -e \"const sharp = require('sharp'); console.log('Sharp versions:', sharp.versions); console.log('HEIC support:', sharp.format.heif ? '✅ Available' : '❌ Not available'); console.log('Available formats:', Object.keys(sharp.format));\"",
-    "verify": "node src/verify-heif.js",
-    "debug": "node src/debug.js",
     "scale": "node src/index.js"
   },
   "keywords": [],
